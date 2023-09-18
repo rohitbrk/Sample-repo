@@ -1,3 +1,4 @@
 1. Strict Mode in react helps to find bugs in the code
 2. It is enabled by default by React
+3. 
 
