@@ -44,7 +44,7 @@ function App() {
   }, [socket]);
 
   const sendMessage = (event) => {
-    // event.preventDefault() stops the default behaviour of web page while submitting
+    // event.preventDefault() 
     // event.preventDefault()
     socket.emit("send_message", {
       roomId: roomId,
