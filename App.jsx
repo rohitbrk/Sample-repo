@@ -44,7 +44,6 @@ function App() {
   }, [socket]);
 
   const sendMessage = (event) => {
-    // event.preventDefault() 
     socket.emit("send_message", {
       roomId: roomId,
       message: message,
