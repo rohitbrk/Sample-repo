@@ -9,7 +9,7 @@ const initServer(port){
     res.json({status: "ok", message: "hey"}
   })
 
-  app.listen(PORT, () => { console.log(`server started on port ${port}`) })
+  app.listen(port, () => { console.log(`server started on port ${port}`) })
 }
 
 initServer(PORT)
